@@ -1,8 +1,8 @@
-console.log("hi there@")
-
-const logSomething = () => {
-    console.log("something")
-    console.log("something")
+class Sorter {
+   constructor(collection: number[]){}
+   sort():void {}
 }
 
-logSomething();
+const sorter = new Sorter([10,3,-5,0])
+sorter.sort()
+console.log(sorter.collection)
